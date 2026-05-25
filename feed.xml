@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>In Development (Audio)</title>
+    <description>In Development magazine articles — evidence and argument for a developing world — converted to audio.</description>
+    <link>https://www.indevelopmentmag.com</link>
+    <language>en-gb</language>
+    <itunes:author>In Development</itunes:author>
+    <itunes:category text="Society &amp; Culture"/>
+    
+    <item>
+      <title>Money for nothing: the roles of evidence in GiveDirectly’s journey to $1 billion delivered — taking these narrow objectives as given, these studies stacked the deck against cash transfers. We knew that recipients would almost surely spend some of the money on things that did not advance those objectives, and hence count for nothing in a cost-effectiveness analysis—things like food for adults in Jharkhand. Even so, transfers often ended up looking cost-effective.</title>
+      <description>That’s not a rhetorical question; it’s the headline the New York Times ran the first time they covered GiveDirectly. My co-founders and I had a mild panic. We had been hoping, I suppose, for something benign and puffy along the lines of “New Charity Founded by Thoughtful Econ PhDs Is a Great Idea.” </description>
+      <link>https://indevelopmentmag.com/money-for-nothing-the-roles-of-evidence-in-givedirectlys-journey-to-1-billion-delivered</link>
+      <pubDate>Mon, 25 May 2026 20:01:14 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/money-for-nothing-the-roles-of-evidence-in-givedirectlys-journey-to-1-billion-delivered</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-money-for-nothing-the-roles-of-evidence-in-givedirectlys-jou.mp3" type="audio/mpeg" length="10850112"/>
+    </item>
+    <item>
+      <title>Exporters Without Borders: Why You Should Start a Company Instead of Working in Aid</title>
+      <description>June Jambiha was a quintessential hustler. Like many in Kenya’s capital of Nairobi, she sold clothing as an informal entrepreneur, her income in 2018 swinging wildly, from $400 one month to $60 the next. This uncertainty made it nearly impossible to plan: hard to save, borrow, or commit to anything </description>
+      <link>https://indevelopmentmag.com/exporters-without-borders-why-you-should-start-a-company-instead-of-working-in-aid</link>
+      <pubDate>Mon, 25 May 2026 19:52:36 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/exporters-without-borders-why-you-should-start-a-company-instead-of-working-in-aid</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-exporters-without-borders-why-you-should-start-a-company-ins.mp3" type="audio/mpeg" length="8916048"/>
+    </item>
+    <item>
+      <title>Jakarta’s Remarkable Urban Transit Transformation</title>
+      <description>Traffic was so bad that transport experts warned in 2013 that if nothing was done, the city could achieve total gridlock , with every part of the city experiencing a traffic jam. In 2014, Jakarta was crowned the world’s most congested city by the Stop-Start Index and a year later was ranked far belo</description>
+      <link>https://indevelopmentmag.com/jakarta-transit-transformation</link>
+      <pubDate>Mon, 25 May 2026 19:45:40 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/jakarta-transit-transformation</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-jakartas-remarkable-urban-transit-transformation.mp3" type="audio/mpeg" length="5652576"/>
+    </item>
+    <item>
+      <title>Where’s My Ministry For Emigration?</title>
+      <description>Leaving Genoa in northwest Italy, Luigi Pastene arrived in Boston in 1848, and began selling produce from a pushcart in the city’s North End neighborhood. By the 1870s, permanently settled in the United States, he had been joined in business by his son Pietro, and the pair specialized in selling Ita</description>
+      <link>https://indevelopmentmag.com/wheres-my-ministry-for-emigration</link>
+      <pubDate>Mon, 25 May 2026 19:42:09 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/wheres-my-ministry-for-emigration</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-wheres-my-ministry-for-emigration.mp3" type="audio/mpeg" length="6562368"/>
+    </item>
+    <item>
+      <title>Can Africa regulate as a continent? — early 2006, the manufacturer, Gilead, had registered it in</title>
+      <description>The Problem of Regulatory Delay The drug tenofovir disoproxil fumarate, a cornerstone of HIV treatment, was approved by the United States Food and Drug Administration in 2001. Its better safety profile quickly made it a standard treatment in the US and Europe. It should have been a shoo-in in Africa</description>
+      <link>https://indevelopmentmag.com/can-africa-regulate-as-a-continent</link>
+      <pubDate>Mon, 25 May 2026 19:38:05 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/can-africa-regulate-as-a-continent</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-can-africa-regulate-as-a-continent.mp3" type="audio/mpeg" length="7273008"/>
+    </item>
+    <item>
+      <title>India's Treatable Crisis: Why 7 Million Opioid Patients Go Without Care</title>
+      <description>India has more people who misuse opioids than any other country in the world. 1 But, of the 7.7 million people in the country who meet the criteria for opioid use disorders, fewer than 2% receive any evidence-based treatment. Opioid addiction can sneak up on people. Many who use opioids don’t realiz</description>
+      <link>https://indevelopmentmag.com/cheap-drugs-arent-enough-fixing-opioid-treatment-in-india</link>
+      <pubDate>Mon, 25 May 2026 19:32:46 -0000</pubDate>
+      <guid isPermaLink="false">https://indevelopmentmag.com/cheap-drugs-arent-enough-fixing-opioid-treatment-in-india</guid>
+      <enclosure url="https://lcrawfurd.github.io/indevelopment-podcast/audio/20260525-indias-treatable-crisis-why-7-million-opioid-patients-go-wit.mp3" type="audio/mpeg" length="10505664"/>
+    </item>
+  </channel>
+</rss>
