@@ -13,7 +13,8 @@ import os
 import re
 import subprocess
 from datetime import datetime
-from email.utils import formatdate
+from email.utils import formatdate, parsedate_to_datetime
+from datetime import timezone
 from pathlib import Path
 
 import edge_tts
@@ -41,6 +42,14 @@ HEADERS = {
 
 
 # ── Helpers ─────────────────────────────────────────────────────────────────
+
+
+def pub_ts(d):
+    """Sortable timestamp from an RFC 2822 date; naive dates are treated as UTC."""
+    dt = parsedate_to_datetime(d)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.timestamp()
 
 def load_processed():
     if PROCESSED.exists():
@@ -124,7 +133,7 @@ def make_filename(title):
 
 def generate_feed(episodes):
     items = ""
-    for ep in sorted(episodes.values(), key=lambda e: e["pub_date"], reverse=True):
+    for ep in sorted(episodes.values(), key=lambda e: pub_ts(e["pub_date"]), reverse=True):
         items += f"""
     <item>
       <title>{x(ep['title'] + (' — ' + ep['authors'] if ep.get('authors') else ''))}</title>
@@ -217,7 +226,7 @@ async def main():
 
     # Enforce episode cap
     if len(processed) > MAX_EPISODES:
-        sorted_eps = sorted(processed.items(), key=lambda kv: kv[1]["pub_date"])
+        sorted_eps = sorted(processed.items(), key=lambda kv: pub_ts(kv[1]["pub_date"]))
         to_remove = sorted_eps[:len(processed) - MAX_EPISODES]
         for url_key, ep in to_remove:
             old_file = AUDIO_DIR / ep["filename"]
